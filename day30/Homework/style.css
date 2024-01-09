@@ -1,0 +1,20 @@
+#head {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+#head img{
+    width: 25%;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+#day p {
+    text-align: center;
+}
+.active-day{
+    color:#00CC00 ;
+}
+.inactive-day{
+   color:#CCCCCC  ; 
+}
