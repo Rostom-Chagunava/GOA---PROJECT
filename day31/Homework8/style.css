@@ -1,0 +1,78 @@
+div{
+    box-sizing:border-box;
+    padding: 10px;
+}
+
+table{
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid rgb(125, 125, 125);
+}
+
+th{
+    border: 5px solid #f0dcdcb7;
+}
+
+.one{
+    background-color: aquamarine;
+}
+
+.one p{
+    height: 30px;
+    padding: 5px;
+    color: #fafafa;
+    background-color: rgb(16, 161, 161);
+}
+
+.two{
+    background-color: #3bf33b;
+}
+
+.two p{
+    padding: 5px;
+    height: 30px;
+    color: #fafafa;
+    background-color: green;
+}
+
+.three{
+    background-color: #2574be;
+}
+
+.three p {
+    padding: 5px;
+    height: 30px;
+    color: #fafafa;
+    background-color:#022e57;
+}
+
+.four{
+    background-color: #1c054e;
+}
+
+.four p{
+    padding: 5px;
+    height: 30px;
+    color: #fafafa;
+    background-color:#877f9e;
+}
+
+.erti{
+    background-color: #8db3d7;
+}
+
+.ori{
+    background-color: rgb(119, 206, 177);
+}
+
+.sami{
+    background-color: #4d4d8f;
+}
+
+.otxi{
+    background-color: #494040;
+}

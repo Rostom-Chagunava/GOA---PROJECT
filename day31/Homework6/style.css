@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #4090e0;
+}
+div{
+    padding-left: 300px; 
+}
+
+table{
+    width: 80%;
+    border: 1px solid #545252;
+    border-collapse: collapse;
+    color: #010101;
+}
+th,td{
+    border: 1px solid #a59b9b;
+}
+th{
+    background-color: #000000;
+    color: #cccaca;
+}
+tr:nth-child(even){
+    background-color: #cccaca;
+}
+
+tr:nth-child(odd){
+    background-color: #f0f8ff;
+}
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+
+table{
+    border:2px solid #eac704;
+    background-color:#eac704;
+    width: 100%;
+    text-align: center;
+}
+td{
+    border:1px solid  #eac704;
+} 
+
+
+th{
+    background-color: rgb(167, 17, 17);
+    color: #ffffff;
+}
+td{
+    background-color: #046c04;
+}

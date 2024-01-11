@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #346502;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #000000;
+    text-align: center;
+    color: #ffffff;
+}
+th,td{
+    
+    border: 2px solid #000000;
+}
+th{
+    background-color: #aeeeee;
+    color: #000000;
+}
+.pirveli{
+    background-color: #79e211;
+    
+}
+.meore{
+    background-color: rgb(33, 187, 33);
+}
+.mesame{
+    background-color: #346502;
+}
+.meotxe{
+    background-color: #7c3232;
+}
+.mexute{
+    background-color: #ff0000;
+}
