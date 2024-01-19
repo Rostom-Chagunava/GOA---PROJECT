@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #4090e0;
+    background-color: blue;
 }
 div{
     padding-left: 300px; 
 }
 
 table{
+    
     width: 80%;
     border: 1px solid #545252;
     border-collapse: collapse;

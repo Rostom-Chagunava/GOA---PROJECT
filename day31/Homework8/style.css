@@ -18,12 +18,13 @@ th{
 }
 
 .one{
+    
     background-color: aquamarine;
 }
 
 .one p{
-    height: 30px;
-    padding: 5px;
+    margin: 10;
+    padding: 20px 10px;
     color: #fafafa;
     background-color: rgb(16, 161, 161);
 }
@@ -33,8 +34,8 @@ th{
 }
 
 .two p{
-    padding: 5px;
-    height: 30px;
+    padding: 20px 10px;
+    margin: 10px 0;
     color: #fafafa;
     background-color: green;
 }
@@ -44,8 +45,8 @@ th{
 }
 
 .three p {
-    padding: 5px;
-    height: 30px;
+    padding: 20px 10px;
+    margin: 10px 0;
     color: #fafafa;
     background-color:#022e57;
 }
@@ -55,8 +56,8 @@ th{
 }
 
 .four p{
-    padding: 5px;
-    height: 30px;
+    padding: 20px 10px;
+    margin: 10px 0;
     color: #fafafa;
     background-color:#877f9e;
 }
