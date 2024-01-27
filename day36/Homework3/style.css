@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+main{
+    width: 20%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.one h1{
+    font-size: 90px;
+    
+}
+
+.one p{
+    font-size: 27px;
+}
+
+.two{
+    width: 100%;
+    padding: 40px;
+    margin: 30px 0 30px 0;
+    background-color: hsla(291, 65%, 54%, 0.067);
+    border-radius: 6px;
+}
+
+.two h2{
+    font-size: 30px;
+    color: rgb(112, 10, 75);
+}
+
+.two ul li{
+    font-size: 27px;
+    list-style-position:inside;
+    margin: 10px;
+}    
+
+.three{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.three h2{
+    font-size: 30px;
+    color: #9e4b0f;
+}
+
+.three ul{
+    font-size: 27px;
+    padding:10px 0 10px 0 ;
+    margin:20px 0 20px 25px;
+}
+
+.three ul li{
+    list-style-position: inside;
+}
+    
+.vour{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}   
+
+.vour h2{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #9e4b0f;
+
+}
+
+.vour ol{
+    margin:20px 0 20px 25px;
+}
+
+.vour ol li{
+    line-height: 40px;
+    font-size: 27px;
+    list-style-position: inside;
+    margin: 10px 0 10px 0;
+}
+
+
+
+.five h2{
+    font-size: 30px;
+    margin: 20px;
+    color: #9e4b0f;
+}
+
+.five table{
+    
+    font-size: 20px;
+    margin:20px 0 20px 25px;
+}
+
+.five table th{
+    column-span: 3;
+}
+.five table td{
+    padding:20px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.142);
+    
+}
