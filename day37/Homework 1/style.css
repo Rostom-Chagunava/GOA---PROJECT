@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    padding: 40px;
+    border-radius: 9px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.first img{
+    border-radius: 50%;
+}
+
+.first h1{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.london{
+    color:hsl(75, 94%, 57%);
+}
+
+.skill{
+    padding: 10px 0 10px 0;
+    color:hsl(0, 0%, 100%);    
+}
+
+.second{
+    width: 100%;
+    gap: 10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second button{
+    border: none;
+    margin: 5px;
+    color:hsl(0, 0%, 100%);
+    padding: 8px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    transition: 0.5s;
+    cursor: pointer;
+}    
+
+.second button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}

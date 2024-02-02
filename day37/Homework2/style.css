@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color:#fff;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profil{
+    border-radius: 50%;
+    z-index: 1;
+    margin: -50px;
+    border: 5px solid #fff;
+}
+
+.back{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    z-index: 0;
+}
+
+.second{
+    gap: 10px;
+    margin-top:70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second .age{
+    opacity: 30%;
+}
+
+.name{
+    font-weight:700 ;
+    font-size: 18px;
+}
+
+hr{
+    opacity: 20%;
+}
+
+.tree{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.p{
+    font-size: 12px;
+    opacity: 50%;
+}
+
+.tree div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
