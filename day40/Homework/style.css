@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 70px;
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 20px;
+}
+
+.backgraund{
+    border-radius: 10px;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+p{
+    color:hsl(215, 51%, 70%);
+    font-size: 40px;
+    width: 80%;
+    margin: 30px 0;
+}
+
+.pirveli{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+    margin-bottom: 30px;
+}
+
+.date{
+    color:hsl(178, 100%, 50%) ;
+}
+
+hr{
+    border: 1px solid #ffffff29;
+    width: 95%;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.meore{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.meore img{
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+
+.name{
+    color: #fff;
+}

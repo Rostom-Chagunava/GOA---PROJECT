@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.parent{
+    height: 900px;
+    width: 900px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+
+.child{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    transition: 1.2s;
+}
+
+.parent:hover{
+    transform: rotate(180deg);
+    background-color: blue;
+}
+
+.child:hover{
+    transform: rotate(-180deg);
+    background-color:brown;
+}
