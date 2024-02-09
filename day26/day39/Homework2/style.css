@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/image/background\ ..\,.jpg);
+}
+
+header{
+    height:100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    padding: 20px;
+}
+
+.Dribbble{
+    font-family: 'Fraunces', serif;
+}
+
+header nav a{
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#fff;
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+
+header nav a:hover{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px; 
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pirveli button{
+    margin: 70px 30px;
+    background-color: #000000e2;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.pirveli button:hover{
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+h1{
+    margin: 20px 0 ;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.meore p{
+    text-align: center;
+    font-size:20px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.meore input{
+    padding: 20px;
+    width: 100%;
+    border-radius:30px;
+}
+
+.mesame{
+    display: flex;
+    align-items: center;
+}
+
+.mesame p{
+    color:#fff
+}
+
+.mesame button{
+    border: 1px solid #ffffff7a;
+    border-radius: 20px;
+    background-color: #00000044;
+    padding: 5px 20px;   
+    color: #fff; 
+    margin: 40px 0 ;
+}
+
+.mesame button:hover{
+    border: 1px solid #ffffff7a;
+    border-radius: 20px;
+    background-color:#fff;
+    padding: 5px 20px;   
+    color: #000000; 
+    margin: 40px 0 ; 
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+footer button{
+    margin: 0 40px;
+    height: 25%;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+

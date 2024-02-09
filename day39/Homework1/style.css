@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/image/background\ ..\,.jpg);
+    background-repeat: no-repeat;
+}
+
+header{
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 55%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+.nav nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 6px 10px;
+
+}
+
+.nav nav a:hover{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 700;
+    padding: 6px 10px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.nav p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav a{
+    text-decoration: none;
+    margin: 30px;
+    padding: 6px 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 700;
+    padding: 6px 10px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttoms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttoms button{
+    background-color: #00000097;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 40px 25px;
+    padding: 18px 14px;
+    border-radius: 20px;
+}
+
+.buttoms button:hover{
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    margin: 40px 25px;
+    padding: 18px 14px;
+    border-radius: 20px;
+}
+
+.text{
+    width: 37%;
+}
+
+.text h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+}
+
+.text p{
+    color:#fff;
+    text-align: center;
+    margin-bottom:50px ;
+
+}
+
+.text input{
+    border: none;
+    margin-left: 70px;
+    border-radius: 30px;
+    height: 50px;
+    width: 80%;
+    padding: 10px;
+}
+
+.buttoms1{
+    margin: 80px;
+}
+
+.buttoms1 button{
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #0000006b;
+    border: 1px solid #fff;
+} 
+.buttoms1 button:hover{
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #0000006b;
+    border: 1px solid  #0000006b;
+} 
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+footer button{
+    margin:0 40px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+}

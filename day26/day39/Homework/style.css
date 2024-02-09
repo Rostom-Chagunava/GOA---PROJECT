@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lexend Deca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pirveli{
+    padding: 30px;
+    background-color:hsl(31, 77%, 52%);
+}
+
+.pirveli h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.pirveli p{
+    padding-bottom:15px;
+    color: #fff;
+    line-height:25px;
+}
+
+.pirveli button{
+    padding: 9px 20px;
+    border-radius: 15px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    margin-top: 40px ;
+}
+
+.meore{
+    padding: 30px;
+    background-color:hsl(184, 100%, 22%) ;
+    
+}
+
+.meore h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #fff;
+    margin: 20px 0;
+
+}
+
+.meore p{
+    padding-bottom:15px;
+    color: #fff;
+    line-height:25px;
+}
+
+.meore button{
+    padding: 9px 20px;
+    border-radius: 15px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    margin-top: 40px ;
+}
+
+.mesame{
+    padding: 30px;
+    background-color:hsl(179, 100%, 13%);
+}
+
+.mesame h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.mesame p{
+    padding-bottom:15px;
+    color: #fff;
+    line-height:25px;
+}
+
+.mesame button{
+    padding: 9px 20px;
+    border-radius: 15px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    margin-top: 40px;
+}

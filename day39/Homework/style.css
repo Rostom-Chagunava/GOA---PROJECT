@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 50%;
+    margin: 5px;
+}
+
+.pirveli{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:30px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.pirveli h1{
+    font-family:'Big Shoulders Display', sans-serif;
+    padding: 30px 0; 
+    color: #fff;
+}
+
+.pirveli p{
+    color: #fff;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.pirveli button{
+    padding:5px 10px;
+    margin: 20px 0; 
+    color: hsl(31, 77%, 52%);
+    border-radius: 15px;
+    border: none;
+}
+
+.pirveli button:hover{
+    padding:5px 10px;
+    margin: 20px 0; 
+    color:#fff;
+    border-radius: 15px;
+    border: none;
+    background-color:#000;
+}
+
+.meore{
+    padding:30px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.meore h1{
+    font-family:'Big Shoulders Display', sans-serif;
+    padding: 30px 0; 
+    color: #fff;
+}
+
+.meore p{
+    color: #fff;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.meore button{
+    padding:5px 10px;
+    margin: 20px 0; 
+    color:hsl(184, 100%, 22%);
+    border-radius: 15px;
+    border: none;
+}
+
+.meore button:hover{
+    padding:5px 10px;
+    margin: 20px 0; 
+    color:#fff;
+    border-radius: 15px;
+    border: none;
+    background-color:#000;
+}
+
+.mesame{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:30px;
+    background-color:hsl(179, 100%, 13%) ;
+}
+
+.mesame h1{
+    font-family:'Big Shoulders Display', sans-serif;
+    padding: 30px 0; 
+    color: #fff;
+}
+
+.mesame p{
+    color: #fff;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.mesame button{
+    padding:5px 10px;
+    margin: 20px 0; 
+    color:hsl(179, 100%, 13%);
+    border-radius: 15px;
+    border: none;
+}
+
+.mesame button:hover{
+    padding:5px 10px;
+    margin: 20px 0; 
+    color:#fff;
+    border-radius: 15px;
+    border: none;
+    background-color:#000;
+}
