@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:  "Outfit", sans-seri;
+}
+
+main{
+    position: relative;
+    top:300px;
+    background-color:  hsl(216, 50%, 16%) ;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.one img{
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 99;
+    transition: 3s;
+}
+
+.image-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    top: 40px;
+    width: 958px;
+    height:958px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.image-hover i{
+    font-size: 80px;
+}
+
+.one img:hover{
+    opacity: 50%;
+}
+
+
+.one h1{
+    margin: 45px 0;
+    color: #fff;
+    font-size: 65px;
+}
+
+.one p{
+    width: 90%;
+    color:hsl(215, 51%, 70%);;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.two .pirveli{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:hsl(178, 100%, 50%);
+    font-size: 18px;
+}
+
+.two .meore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+hr{
+    border: 1px solid hsla(215, 52%, 70%, 0.904) ;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+}
+
+.three img{
+    margin: 30px 30px 30px 0px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.three p{
+    font-size: 30px;
+    color: hsl(215, 51%, 70%);
+}
+
+.three .name{
+    color: #fff;
+}
+
+.attribution{
+    position: relative;
+    top:300px;
+}

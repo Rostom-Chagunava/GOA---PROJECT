@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 90px;
+    font-size: 30px;
+}
+
+.covid{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.covid span{
+    font-weight: 700;
+}
+
+.text{
+    display: flex;
+    gap: 30px;
+}
+
+hr{
+    border: 1px solid hsla(43, 74%, 49%, 0.327);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+header .h1{
+    
+    font-size: 40px;
+    display: flex;
+    gap: 10px;
+    color: rgb(156, 55, 5);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:200px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-size: 40px;
+}
+
+.button button{
+    border: none;
+    font-size:25px;
+    color: #fff;
+    padding: 25px 45px;
+    border-radius: 30px;
+}
+
+.pirveli{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-image: url(/Homework/istockphoto-537739041-612x612.jpg);
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.pirveli div{
+    width: 50%;
+    margin-left: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+    gap: 40px;
+}
+
+.pirveli div h1{
+    font-size: 150px;
+    width: 50%;
+}
+
+.pirveli div p{
+    font-size: 30px;
+    width: 35%;
+    line-height: 50px;
+}
+
+.pirveli div button{
+    font-size: 20px;
+    width: 250px;
+    padding: 20px 50px;
+    border-radius: 25px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+}
+
+.left{
+    margin-left: 90px;
+    transform:rotate(-90deg);
+    width: 90px;
+}
+
+.right{
+    position: relative;
+    right: -1270px;
+    transform:rotate(90deg);
+    width: 90px;
+}
+
+.boll{
+    position: absolute;
+    bottom: 550px;
+    left: 2000px;
+    display: flex;
+    gap: 20px;
+
+}
+.boll div{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #c7c4c4 ;
+}
+
+.boll div:hover{
+    background-color:#fbfbfb;
+}
+
+.footer{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img{
+    width: 100px;
+}
+
+.resurs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    color: hwb(0 1% 33%);
+}
+
+.resurs p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resurs button{
+    color:hwb(37 1% 33%) ;
+    border: 1px solid hwb(37 1% 33%);
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.veterinar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    color: hwb(0 1% 33%);
+}
+
+.veterinar p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.veterinar button{
+    color:hwb(37 1% 33%) ;
+    border: 1px solid hwb(37 1% 33%);
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.pet{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    color: hwb(0 1% 33%);
+}
+
+.pet p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pet button{
+    color:hwb(37 1% 33%) ;
+    border: 1px solid hwb(37 1% 33%);
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.hr{
+    position: absolute;
+    top: 500px;
+    border:10px solid black;
+}
+
