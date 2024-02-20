@@ -1,0 +1,55 @@
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: azure;
+}
+.mshobeli{
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns:200px 1fr;
+    grid-template-rows:100px 1fr auto;
+    gap: 10px;
+}
+
+.child-1{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: palevioletred;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.child-2{
+    border: 3px solid black;
+    border: 1px ;
+    border-radius: 5px;
+    background-color: aquamarine;
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+.child-3{
+    border: 3px solid black;
+    border: 1px ;
+    border-radius: 5px;
+    background-color: rgb(3, 49, 33);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
+.child-4{
+    border: 1px ;
+    border-radius: 5px;
+    background-color: rgb(240, 197, 7);
+    grid-column-start: 2 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: 3px solid black;
+}
