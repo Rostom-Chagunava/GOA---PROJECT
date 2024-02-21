@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav content siderbar"
+    "nav footer footer"
+    ;
+}
+
+header,footer,main,nav,aside{
+    background-color: rgb(6, 145, 99);
+    color: #fff;
+    padding: 20px;
+    border:greenyellow 1px solid;
+
+    
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: content;
+}
+
+footer{
+    grid-area: footer;
+}

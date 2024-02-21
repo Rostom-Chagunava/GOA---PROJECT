@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(125, 202, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main{
+    position:absolute;
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: repeat(10,100px);
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.child:nth-of-type(1){
+    grid-area: 1/1/6/3;
+}
+
+.child:nth-of-type(1):hover{
+    z-index: -1;
+    cursor: pointer;
+}
+
+.child:nth-of-type(1) img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.child:nth-of-type(2){
+    grid-area: 3/2/7/3;
+}
+
+.child:nth-of-type(2):hover{
+    z-index: -1;
+    cursor: pointer;
+}
+
+.child:nth-of-type(2) img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.child:nth-of-type(3) {
+    grid-area:5/3/9/4 ;
+}
+
+.child:nth-of-type(3):hover{
+    z-index: -1;
+}
+
+.child:nth-of-type(3) img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.child:nth-of-type(4){
+    grid-area: 1/3/3/4;
+    border-top: 8px solid black;
+}
+
+.child:nth-of-type(4) ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.child:nth-of-type(4) li:hover{
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+.child:nth-of-type(5){
+    grid-area: 8/1/11/2;
+    border-bottom: 8px solid black;
+}
+
+.main2{
+    
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: repeat(10,100px);
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.child2:nth-of-type(1){
+    height: 150px;
+    border-radius:0px 0px 20px 20px ;
+    opacity: 60%;
+    background-color: black;
+    color: #fff;
+    grid-area: 6/1/7/2;
+    z-index: -1;
+    padding: 20px;
+}
+
+.child2:nth-of-type(2){
+    height: 150px;
+    border-radius:0px 0px 20px 20px ;
+    opacity: 60%;
+    background-color: black;
+    color: #fff;
+    grid-area: 8/2/10/3;
+    z-index: -1;
+    padding: 20px;
+}
+
+.child2:nth-of-type(3){
+    height: 187px;
+    border-radius:0px 0px 20px 20px ;
+    opacity: 60%;
+    background-color: black;
+    color: #fff;
+    grid-area:9/3/10/4 ;
+    z-index: -1;
+    padding: 20px;
+}
