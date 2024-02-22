@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+div{
+    width:500px;
+    height: 500px;
+    background-color: aquamarine;
+    transition: 1s;
+
+}
+
+div:hover{
+    transform:rotate(-90deg);
+    transform-origin: bottom left;
+    
+}
+
+
+

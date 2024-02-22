@@ -5,7 +5,12 @@
 }
 
 body{
-    background-color: rgb(125, 202, 122);
+    background-image: linear-gradient(to bottom,
+    #04a30e 0%,
+    #04a30e 40%,
+    #fff 40%,
+    #fff 100%
+    );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +28,7 @@ body{
 }
 
 .child:nth-of-type(1){
-    grid-area: 1/1/6/3;
+    grid-area: 1/1/6/2;
 }
 
 .child:nth-of-type(1):hover{
