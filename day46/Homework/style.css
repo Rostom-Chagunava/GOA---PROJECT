@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Outfit:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pirveli{
+    background-color: #fff;
+    grid-area: 1/1/2/3;
+    padding: 30px;
+}
+
+.pirveli .head1{
+    margin-bottom:25px;
+    color:hsl(179, 62%, 43%);
+    font-size: 25px;
+}
+
+.pirveli .head2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: hsl(71, 73%, 54%);
+}
+
+.pirveli .paragrap{
+    color:   hsl(218, 22%, 67%);
+    line-height: 30px;
+}
+
+.meore{
+    background-color:hsl(179, 62%, 43%);
+    padding: 30px;
+    color: #fff;
+}
+
+.meore .head1{
+    font-size: 25px;
+    margin-bottom:25px;
+}
+
+.meore .head2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 30px; 
+}
+
+.meore .head2 span{
+    color:hsl(203, 41%, 71%);
+    font-size: 20px;
+}
+
+.meore .head3 {
+    margin-bottom: 15px;
+}
+
+.meore button{
+    width: 245px;
+    color: #fff;
+    background-color:hsl(71, 73%, 54%);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mesame {
+    background-color:hsl(179, 49%, 53%);
+    padding: 30px;
+    color: #fff;
+}
+
+.mesame .head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.mesame .head2{
+    width: 70%;
+    line-height: 20px;
+    opacity: 60%;
+}
