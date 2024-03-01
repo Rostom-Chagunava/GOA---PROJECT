@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to left, rgba(98, 98, 220, 0.8),rgba(98, 98, 185, 0.783)),url(/Homework/image/peakpx.jpg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;    
+    flex-direction: column;
+    color: #fff;
+    height: 60vh;
+}
+
+nav{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav p{
+    color: rgb(158, 155, 152);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav p span{
+    color: #fff;
+    font-weight: 100;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+hr{
+    width: 70%;
+    color: aliceblue;
+}
+
+.header{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    margin: 20px;
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+}
+
+.header p{
+    margin: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+.header button{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #ff4603;
+    border: none;
+}
+
+main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.section1{
+    width: 1100px;
+    margin:70px 0px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 40px;
+}
+
+.section1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section1 div img{
+    margin: 20px;
+    width: 60px;
+    filter: invert(40%) sepia(50%) saturate(7496%) 
+    hue-rotate(4deg)
+     brightness(105%) contrast(105%);
+}
+
+.section2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.containerdiv{
+    overflow: hidden;
+}
+
+.div-image{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition:1s ;
+}
+
+.div-image .div-text{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: #fff;   
+    background-color: #ff07039a;
+    opacity:0;
+    transition: 1s;
+}
+
+.div-image1{
+    background: url(/Homework/image/work-1.jpg);
+}
+
+.div-image2{
+    background: url(/Homework/image/work-2.jpg);
+}
+
+.div-image3{
+    background: url(/Homework/image/work-3.jpg);
+}
+
+.div-image4{
+    background: url(/Homework/image/work-4.jpg);
+}
+
+.div-image5{
+    background: url(/Homework/image/work-5.jpg);
+}
+
+.div-image6{
+    background: url(/Homework/image/work-6.jpg);
+}
+
+.div-image7{
+    background: url(/Homework/image/work-7.jpg);
+}
+
+.div-image8{
+    background: url(/Homework/image/work-8.jpg);
+}
+
+.div-image:hover .div-text{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.div-image:hover {
+    transform: scale(1.2);
+}
+
+.section3{
+    margin: 70px 0px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.section3 .item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section3 .item img{
+    width: 270px;
+    height: 270px;
+}
+
+.icon{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.icon i{
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.profession{
+    color: #ff4603;
+    margin-bottom: 20px;
+}
+
+.section4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section4 .image{
+    background: url(/Homework/image/testimonial-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.section4 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(92, 12, 80);
+    color: #fff;
+    padding: 0px 60px;
+}
+
+.section4 .text i{
+    font-size: 40px;
+}
+
+.section4 .text p{
+    margin: 30px ;
+}
+
+.ball{
+    display: flex;
+    gap: 5px;
+}
+
+.ball div{
+    background-color: #d2adad;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.ball div:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section5 h1{
+    margin-top: 80px;
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.section5 p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section5 button{
+    display: flex;
+    border: 2px solid orangered;
+    background-color: #fff;
+    color: #1a3a79;
+    transition: 1s;
+    padding: 15px 70px;
+    margin-bottom: 50px;
+}
+
+.section5 button:hover{
+    color: #fff;
+    background-color: #ff4603;
+}
+
+
+
+footer .section1{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #1a3a79; 
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 0px;
+}
+
+footer .section1 div{
+    color: #fff;
+}
+
+footer .section1 div p{
+    opacity: 60%;
+}
+
+footer .section1 .div1{
+    grid-area: 1/2/2/3;
+}
+
+footer .section1 .div2{
+    grid-area: 1/3/2/4;
+
+}
+
+footer .section1 .div3{
+    grid-area: 1/4/2/5;
+}
+
+
+footer .stiker{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    margin-top:25px;
+}
+
+footer .stiker i{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer .section2{
+    background-color: #0d1f43;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+footer .section2 p{
+    margin: 20px 0px;
+    color: #ffffff49;
+    grid-area: 1/2/2/3;
+}
+
+footer .section2 p i{
+    color: #ff4603;
+}
+
+footer .section2 p span{
+    color: #fff;
+}
+
+
+
+
