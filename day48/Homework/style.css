@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to left, rgba(98, 98, 220, 0.8),rgba(98, 98, 185, 0.783)),url(/day47/Homework/image/peakpx.jpg);    
+    background-image: linear-gradient(to left, rgba(98, 98, 220, 0.8),rgba(98, 98, 185, 0.783)),url(/day48/Homework/image/peakpx.jpg);    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -194,35 +194,35 @@ main{
 }
 
 .div-image1{
-    background: url(/day47/Homework/image/work-1.jpg);
+    background: url(/day48/Homework/image/work-1.jpg);
 }
 
 .div-image2{
-    background: url(/day47/Homework/image/work-2.jpg);
+    background: url(/day48/Homework/image/work-2.jpg);
 }
 
 .div-image3{
-    background: url(/day47/Homework/image/work-3.jpg);
+    background: url(/day48/Homework/image/work-3.jpg);
 }
 
 .div-image4{
-    background: url(/day47/Homework/image/work-4.jpg);
+    background: url(/day48/Homework/image/work-4.jpg);
 }
 
 .div-image5{
-    background: url(/day47/Homework/image/work-5.jpg);
+    background: url(/day48/Homework/image/work-5.jpg);
 }
 
 .div-image6{
-    background: url(/day47/Homework/image/work-6.jpg);
+    background: url(/day48/Homework/image/work-6.jpg);
 }
 
 .div-image7{
-    background: url(/day47/Homework/image/work-7.jpg);
+    background: url(/day48/Homework/image/work-7.jpg);
 }
 
 .div-image8{
-    background: url(/day47/Homework/image/work-8.jpg);
+    background: url(/day48/Homework/image/work-8.jpg);
 }
 
 .div-image:hover .div-text{
@@ -282,7 +282,7 @@ main{
 }
 
 .section4 .image{
-    background: url(/day47/Homework/image/testimonial-1.jpg);
+    background: url(/day48/Homework/image/testimonial-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -482,4 +482,3 @@ footer .section2 p span{
         font-size: 30px;
     }
 }
-
