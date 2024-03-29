@@ -1,12 +1,12 @@
 // var, ler, const - ქიუწორდ.  
-var name = "rostom" //ქიუწორდ პატარა ბრაძანება, თავისი დანიშნულებით, მისი დახმარებით იქმნევა ცვლადი var - variable-ცვლადი - let მსგავსია var რისა. განახლებული ვერისა let//
+// var name = "rostom" //ქიუწორდ პატარა ბრაძანება, თავისი დანიშნულებით, მისი დახმარებით იქმნევა ცვლადი var - variable-ცვლადი - let მსგავსია var რისა. განახლებული ვერისა let//
 
 
 // console.log(typeof name)
+// let
+//  age = 30
 
-let age = 30
-
-let lastName = "chagu"
+// let lastName = "chagu"
 
 // == შედარების ოპერატორი === მკაცრი ტოლობა.
 
@@ -23,4 +23,29 @@ if (name.length === 6){
 }else{
     console.log|("samsing wrong")
 }
+
+
+let myName = "Rostom"
+
+let myAge = 30
+
+
+const lastName1 = "chagu"
+
+
+if (myName == "Rostom"){
+    console.log("its right") 
+}else if (myAge == 30){
+    console.log("it is right")
+}else{
+    console.log("etwas falsh")
+}
+
+
+name = String(myAge)
+
+console.log(typeof name)
+
+console.log("helloworld")
+
 
