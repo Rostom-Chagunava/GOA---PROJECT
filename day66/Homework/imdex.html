@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form id="regiter">
+            <input type="text" id="r-name" placeholder="Name">
+            <p id="rname"></p>
+            <input type="password" id="r-password" placeholder="Password">
+            <p id="rpassword"></p>
+    
+            <input type="button" value="register" onclick="registerDates()">
+        </form>
+
+        <form id="login">
+            <input type="text" id="l-name" placeholder="Name">
+            <p id="loginame"></p>
+            <input type="password" id="l-password" placeholder="Password">
+            <p id="loginpssword"></p>
+            <input type="button" value="Log in" onclick="loginDate()">
+        </form>
+    </section>
+
+    <section class="section1">
+        <p >Name:<span id="name"></span></p>
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
