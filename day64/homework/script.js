@@ -6,6 +6,7 @@ let box1 = document.getElementById("box1")
 let result = 0
 
 function moveBox(){
+    
     let number = Math.floor(Math.random() * 1000)
     let number1 = Math.floor(Math.random() * 1000)
 
@@ -16,8 +17,10 @@ function moveBox(){
         result += 1
         sum.innerHTML = result
         box.style.border = "solid 2px #0dae0d"
+        box1.style.border = "solid 2px #0dae0d"
     }else{
         box.style.border = "solid 2px #ff0000"
+        box1.style.border = "solid 2px #ff0000"
     }
 
 }

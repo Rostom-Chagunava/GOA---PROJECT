@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    box-shadow: 0px 0px 50px rgb(7, 0, 0);
+    margin-bottom: 5px;
+}
+
+.h1{
+    color: rgb(14, 182, 126);
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main button{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+div{
+    background-color: #070707;
+    color: #f0f8ff;
+    padding: 0 20px;
+    border-radius: 20px;
+}
