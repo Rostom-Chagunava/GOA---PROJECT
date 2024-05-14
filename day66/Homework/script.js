@@ -87,6 +87,8 @@ function loginDate(){
     }
 
     for(let i = 0;i < personDate.length;i++){
+        console.log(personDate[i].name)
+        console.log(lName.value)
         if(personDate[i].name == lName.value){
                 if(personDate[i].password == lPassword.value){
                     userName.innerHTML = personDate[i].name

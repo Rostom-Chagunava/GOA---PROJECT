@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <p id="headerp"></p>
+        <button onclick="exit()">Exit</button>
+    </header>
+
+    <main>
+        <section>
+            <form id="register">
+                <input type="text"  class="input-reg" placeholder="Name" id="re-name">
+                <p id="rname"></p>
+                <input type="text" class="input-reg" placeholder="Surname" id="re-surname">
+                <p id="rsurname"></p>
+                <input type="email" class="input-reg" placeholder="E-mail" id="re-email">
+                <p id="remail"></p>
+                <input type="password" class="input-reg" placeholder="password" id="re-password"> 
+                <p id="rpassword"></p>
+                <p class="p">Are you registered? <span onclick="Register()">Log in</span></p>
+                <input type="button" value="Register" onclick="register()">
+
+                
+            </form>
+
+            <form id="log-in">
+                <input type="text"  class="input-reg" placeholder="Name" id="log-name">
+                <p id="lname"> </p>
+                <input type="email" class="input-reg" placeholder="E-mail" id="log-email">
+                <p id="lemail"></p>
+                <input type="password" class="input-reg" placeholder="password" id="log-password"> 
+                <p id="lpassword"></p>
+                <p class="p">You are not registered? <span onclick=" Login()">Register</span></p>
+                <input type="button" value="Log in" onclick="login()">
+            </form>
+        </section>
+    </main>
+    <script src="script.js"> </script>
+</body>
+</html>
