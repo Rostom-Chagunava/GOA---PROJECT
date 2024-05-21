@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form id="form1">
+            <input type="text" placeholder="Name" id="rname">
+            <input type="text" placeholder="Surname" id="rsurname">
+            <input type="text" placeholder="Age" id="rage">
+            <input type="button" onclick="submit1 ()" value="Submit">
+        </form>
+
+        <div id="div1">
+            <p>User Name:<span id="uname"></span></p>
+            <p>User Suername: <span id="usurname"></span></p>
+            <p>User Age: <span id="uage"></span></p>
+            
+        </div>
+
+        <p id="ask1">მოგესალმებით:<span id="uname1"></span>!.<br> კეთილი იყოს თქვენი მობრაძანება 
+            დროის მანქანაში!!! დროში მოგზაურობისათვის მიყევით შემდეგ მითითებებს; 
+            დაკლიკეთ ღილაკზე და აირჩიეთ თქვენთვის საურველი დრო .!
+        </p>
+
+        <button id="button1" onclick="submit2()">!!!დროში მოგზაურობა!!!</button>
+
+        <form id="form2">
+            <label for="year">აირჩიეთ წელი!</label><br>
+            <p id="form2p"></p>
+            <input type="text" placeholder="Year" id="year"><br>
+        </form>
+
+        <div id="text2">
+            <h2>გთხოვთ გაითვალისწინოთ რომ დროში მოგზაურობა დაკავშირებულია
+                გაუთვალისწინებელ შედეგბთან რაც შესაძლოა საფრთხის შემცველი აღმოჩნდეს 
+                თქვენთვის!!! <br> პროცესის გასაგრძელებლად საჭიროა თქვენი დასტური, რითაც 
+                შესაძლო გაუთვალისწინებელ შედეგებძე პასუხისმგებლობა სრულად თქვენ გენიჭებათ. 
+            </h2>
+        </div>
+
+        <form id="form3">
+            <label for="ask" >ვადასტურებ.</label>
+            <input type="checkbox" id="ask" onclick="check()"><br>
+            <p id="form3p"></p>
+        </form>
+
+        <div id="contaner4">
+            <div class="div1">
+                <div class="div2">
+                    <div class="div3">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h1 id="lastpage">
+            მოგესალმებით <span id="uname5"></span>,  <span id="futur-year"></span> წელში!!!
+            თქვენი ასაკია <span id="lastage"></span> წელი!!!
+        </h1>
+
+        <button id="exit5" onclick="Exit()">უკან დაბრუნება</button>
+        
+        
+    </section>
+
+    
+    
+
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
