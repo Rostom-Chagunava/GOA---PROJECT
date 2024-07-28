@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #827d7d;
+}
+
+main .dice-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+main .dice-section h2{
+    font-size: 4rem;
+    color: rgb(73, 169, 73);
+}
+
+main .dice-section .dice-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .dice-section .dice-container .dice1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+main .dice-section .dice-container p{
+    color: rgb(73, 169, 73);
+}
+
+main .dice-section .dice-container .dice{
+    width: 210px;
+    height: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #c30101;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+main .dice-section .dice-container .dice div{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+
+
+/* //////button/////  */
+
+#reset{
+    padding: 5px 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    color: #c30101;
+    cursor: pointer;
+}
