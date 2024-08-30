@@ -64,26 +64,26 @@
 
 
 // *-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-**-*-*-
-// const calculator = (num1,num2,operator,
-//     mult = (n1,n2) => {return n1 * n2},
-//     divis = (n1,n2) => {return n1 / n2},
-//     plus = (n1,n2) => {return n1 + n2},
-//     minus = (n1,n2) => {return n1 - n2},
-// ) =>{
+const calculator = (num1,num2,operator,
+    mult = (n1,n2) => {return n1 * n2},
+    divis = (n1,n2) => {return n1 / n2},
+    plus = (n1,n2) => {return n1 + n2},
+    minus = (n1,n2) => {return n1 - n2},
+) =>{
 
-//     if (operator == "*"){
-//         return mult(num1,num2)
-//     }else if (operator == "/"){
-//         return divis(num1,num2)
-//     }else if (operator == "+"){
-//         return plus(num1,num2)
-//     }else if(operator == "-"){
-//         return minus(num1,num2)
-//     }
+    if (operator == "*"){
+        return mult(num1,num2)
+    }else if (operator == "/"){
+        return divis(num1,num2)
+    }else if (operator == "+"){
+        return plus(num1,num2)
+    }else if(operator == "-"){
+        return minus(num1,num2)
+    }
 
-// }
+}
 
-// console.log(calculator(2,5,"*"))
+console.log(calculator(2,5,"*"))
 
 
 
