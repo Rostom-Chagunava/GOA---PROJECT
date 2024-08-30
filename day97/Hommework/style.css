@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+main form input{
+    padding: 5px;
+}
+
+
+main form textarea{
+    padding:0 20px 20px 0;
+}
+
+
+main form button{
+    padding: 5px;
+    background-color: rgb(177, 231, 231);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+main form button:hover{
+    background-color: #c32727;
+    color: #ffffff;
+    /* border: #b5a0a0 1px solid; */
+}
+
+main form button:valid{
+    transform: scale(0.9);
+    color: #008000;
+    background-color: #008000;
+}
+
+main .contaner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 80%;
+    overflow-y: scroll;
+}
+
+/* /////////// */
+
+.newdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(164, 225, 226);
+}
+
+.p{
+    width: 80%;
+}
+
+.hr{
+    width: 100%;
+}
+
+.delete{
+    align-self: flex-start;
+    border: 1px solid #181616;
+    padding: 0px 2px 2px 2px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.1s;
+}
+
+.delete:hover{
+    background-color: #c32727;
+    color: #ffffff;
+    border: #b5a0a0 1px solid;
+}
+
+.delete:active{
+    transform: scale(0.9);
+    color: #008000;
+    background-color: #008000;
+}
+
+.name{
+    color: #87230d;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
