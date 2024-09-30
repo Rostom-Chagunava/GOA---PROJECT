@@ -138,14 +138,25 @@
 
 
 // Given an array of numbers, return a new array where only the odd numbers are doubled
+let myarr = [{name:"giorgi"},{name:"otari"},{name:"merabi"}]
 
-let myArr1 = [1,2,3,4,55,48,662,58]
+let arr = []
 
-const result = myArr1.filter((item) => {
-    return  (item %2 != 0) 
-})
 
-const result1 = result.map((elemnt) =>{
-    return elemnt * 2
-})
-console.log(result1)
+for(let i =0;i<myarr.length;i++){
+    if(myarr[i].name != "giorgi"){
+        arr.push(myarr[i])
+    }
+}
+
+console.log(arr)
+// let myArr1 = [1,2,3,4,55,48,662,58]
+
+// const result = myArr1.filter((item) => {
+//     return  (item %2 == 0) 
+// })
+
+// const result1 = result.map((elemnt) =>{
+//     return elemnt * 2
+// })
+// console.log(result1)
