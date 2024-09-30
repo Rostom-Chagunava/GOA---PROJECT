@@ -1,0 +1,7 @@
+.stylelist{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    list-style: none;
+}
